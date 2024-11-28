@@ -1,0 +1,112 @@
+.createReviewBtn {
+    border-radius: 0.5rem;
+    background-color: lightgrey;
+    box-shadow: none;
+    transition: 0.25s;
+    text-align: center;
+    position: fixed;
+    padding: 0.75rem 1.5rem;
+    right: 5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    border: none;
+}
+
+.createReviewBtn:hover {
+    transform: scale(1.05);
+}
+
+.createReviewBtn:active {
+    transform: scale(1);
+}
+
+.backgroundModal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 5;
+    transition: 0.5s;
+}
+
+.modalCreate {
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: white;
+    z-index: 10;
+    width: 400px;
+    height: 400px;
+    gap: 2rem;
+}
+
+.reviewInput {
+    resize: none;
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+    border-radius: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.create {
+    border-radius: 0.5rem;
+    background-color: lightgrey;
+    box-shadow: none;
+    transition: 0.25s;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    border: none;
+}
+
+.create:hover {
+    transform: scale(1.05);
+}
+
+.create:active {
+    transform: scale(1);
+}
+
+.reviews {
+    padding-top: 5rem;
+    position: relative;
+    max-height: 60%;
+}
+
+.reviewsList {
+    padding-top: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 60%;
+    width: 80%;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: auto;
+    gap: 1rem;
+    list-style: none;
+}
+
+.review {
+    height: 100%;
+    width: 90%;
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 0.5rem;
+}
